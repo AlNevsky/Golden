@@ -1,0 +1,31 @@
+@media screen and (max-width: 39.9375em) {
+    
+    #header{    
+    .top-bar{  
+        text-align: center;
+            ul {                
+                li{   
+                    display: block;
+                }             
+            }
+       }
+}
+
+    #home{
+        .btn{
+            margin-bottom: 50px;
+        }
+    }
+
+    #services .services-wrap {
+        padding-top: 0 !important;
+    }
+
+    #portfolio {
+        padding: 120px 0 50px 0;
+    }
+
+    #our_team {
+        padding: 120px 0 50px 0 !important;
+    }
+}

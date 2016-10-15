@@ -1,0 +1,29 @@
+@import "compass/utilities/sprites";
+
+
+$toolbar-spacing: 15px;
+$land-layout: smart;
+$land-sprite-dimensions: true;
+//$happiness-sprite-base-class: ".sprites";
+
+$icons: sprite-map('icons/*.png');
+
+%icon{
+  @include inline-block;
+  background-image: sprite-url($icons);
+}
+.icon-production--31 {
+  @extend %icon;
+  background-position: sprite-position($icons, icon_icon_production31);
+  @include sprite-dimensions($icons, icon_icon_production31);
+}
+.icon-production--11 {
+  @extend %icon;
+  background-position: sprite-position($icons, icon_icon_production11);
+  @include sprite-dimensions($icons, icon_icon_production11);
+}
+.icon-production--2 {
+  @extend %icon;
+  background-position: sprite-position($icons, icon_icon_production2);
+  @include sprite-dimensions($icons, icon_icon_production2);
+}

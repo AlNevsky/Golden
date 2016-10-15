@@ -1,0 +1,65 @@
+//
+//-webkit-animation-duration: 2s;
+//-webkit-animation-delay: 1.5s;
+//-webkit-animation-iteration-count: infinite;
+
+
+
+#header{
+  .logo{
+    -webkit-animation-duration: 2s;
+    //-webkit-animation-delay: 1.5s;
+    //-webkit-animation-iteration-count: infinite;
+  }
+
+  .top-bar-right{
+    -webkit-animation-duration: 2s;
+    //-webkit-animation-delay: 0.7s;
+    //-webkit-animation-iteration-count: infinite;
+  }
+}
+
+#home{
+  .home-title{
+    -webkit-animation-duration: 2s;
+    //-webkit-animation-delay: 1.5s;
+    //-webkit-animation-iteration-count: infinite;
+  }
+  .home-subtitle{
+    -webkit-animation-duration: 2s;
+    //-webkit-animation-delay: 1.5s;
+    //-webkit-animation-iteration-count: infinite;
+  }
+
+  .btn{
+    -webkit-animation-duration: 1s !important;
+    //-webkit-animation-delay: 1s !important;
+    //-webkit-animation-iteration-count: infinite;
+  }
+}
+
+#services{
+  .commerce {
+    -webkit-animation-duration: 0.8s;
+    //-webkit-animation-delay: 1.5s;
+  }
+
+  .responsive{
+    -webkit-animation-duration: 0.8s;
+    //-webkit-animation-delay: 1.5s;
+  }
+
+  .security{
+    -webkit-animation-duration: 0.8s;
+    //-webkit-animation-delay: 1.5s;
+  }
+}
+
+#contact_us{
+
+  .contact_form_left{
+
+  }
+
+  .contact_form_right{}
+}

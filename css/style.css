@@ -1,0 +1,367 @@
+/* Compass */
+/* Tools */
+@media screen and (max-width: 39.9375em) {
+  /* line 4, ../scss/tools/_media-queries.scss */
+  #header .top-bar {
+    text-align: center;
+  }
+  /* line 7, ../scss/tools/_media-queries.scss */
+  #header .top-bar ul li {
+    display: block;
+  }
+
+  /* line 15, ../scss/tools/_media-queries.scss */
+  #home .btn {
+    margin-bottom: 50px;
+  }
+
+  /* line 20, ../scss/tools/_media-queries.scss */
+  #services .services-wrap {
+    padding-top: 0 !important;
+  }
+
+  /* line 24, ../scss/tools/_media-queries.scss */
+  #portfolio {
+    padding: 120px 0 50px 0;
+  }
+
+  /* line 28, ../scss/tools/_media-queries.scss */
+  #our_team {
+    padding: 120px 0 50px 0 !important;
+  }
+}
+/* line 9, ../scss/tools/_animation-rules.scss */
+#header .logo {
+  -webkit-animation-duration: 2s;
+}
+/* line 15, ../scss/tools/_animation-rules.scss */
+#header .top-bar-right {
+  -webkit-animation-duration: 2s;
+}
+
+/* line 23, ../scss/tools/_animation-rules.scss */
+#home .home-title {
+  -webkit-animation-duration: 2s;
+}
+/* line 28, ../scss/tools/_animation-rules.scss */
+#home .home-subtitle {
+  -webkit-animation-duration: 2s;
+}
+/* line 34, ../scss/tools/_animation-rules.scss */
+#home .btn {
+  -webkit-animation-duration: 1s !important;
+}
+
+/* line 42, ../scss/tools/_animation-rules.scss */
+#services .commerce {
+  -webkit-animation-duration: 0.8s;
+}
+/* line 47, ../scss/tools/_animation-rules.scss */
+#services .responsive {
+  -webkit-animation-duration: 0.8s;
+}
+/* line 52, ../scss/tools/_animation-rules.scss */
+#services .security {
+  -webkit-animation-duration: 0.8s;
+}
+
+/* Base */
+/* Fonts */
+/* Layout */
+/* line 4, ../scss/layout/_main.scss */
+.box {
+  padding: 120px 0 120px 0;
+}
+
+/* line 7, ../scss/layout/_main.scss */
+.title {
+  text-transform: uppercase;
+  font: bold 40px/42px Arial, sans-serif;
+  color: #222222;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* line 14, ../scss/layout/_main.scss */
+.title_item {
+  font: bold 18px/20px Arial, sans-serif;
+  color: #222222;
+}
+
+/* line 18, ../scss/layout/_main.scss */
+.descr {
+  font: 16px/18px 'times new roman', serif;
+  color: #777777;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+/* line 24, ../scss/layout/_main.scss */
+.btn {
+  color: #fff;
+  display: inline-block;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  font: 24px/26px bold, sans-serif;
+  font-family: 'Arial';
+  background-color: #fed136;
+  border-radius: 3px;
+}
+/* line 33, ../scss/layout/_main.scss */
+.btn:hover {
+  background-color: #997805;
+  color: #fff;
+  transition: 1s;
+}
+
+/* line 40, ../scss/layout/_main.scss */
+.social_menu_item {
+  display: inline-block;
+}
+/* line 43, ../scss/layout/_main.scss */
+.social_menu_link {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+}
+
+/* line 53, ../scss/layout/_main.scss */
+.sticky-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+/* line 60, ../scss/layout/_main.scss */
+.header-wrap {
+  top: 0 !important;
+}
+
+/* line 64, ../scss/layout/_main.scss */
+.is-stuck {
+  background-color: rgba(91, 91, 91, 0.75);
+  height: 60px;
+}
+
+/* line 70, ../scss/layout/_main.scss */
+.header-wrap {
+  width: 100%;
+  left: 0;
+  right: 0;
+  min-height: 60px;
+  top: 20px;
+}
+
+/* line 78, ../scss/layout/_main.scss */
+#header {
+  width: 100%;
+}
+/* line 84, ../scss/layout/_main.scss */
+#header .top-bar {
+  background-color: transparent !important;
+}
+/* line 90, ../scss/layout/_main.scss */
+#header .top-bar ul {
+  background-color: transparent;
+}
+/* line 96, ../scss/layout/_main.scss */
+#header .top-bar ul a {
+  padding-left: 0;
+}
+/* line 102, ../scss/layout/_main.scss */
+#header .menu {
+  text-transform: uppercase;
+  font: 14px Arial, 'sans-serif';
+}
+/* line 105, ../scss/layout/_main.scss */
+#header .menu a {
+  color: #FFFFFF;
+}
+/* line 107, ../scss/layout/_main.scss */
+#header .menu a:hover {
+  color: #fed136;
+  transition: 1s;
+}
+/* line 114, ../scss/layout/_main.scss */
+#header .logo {
+  padding: 0.7rem 0 0 1rem;
+}
+
+/* line 121, ../scss/layout/_main.scss */
+#home {
+  min-height: 700px;
+  padding-top: 270px;
+  text-align: center;
+  color: #fff;
+  background: #222 url("../img/home_bg.jpg") no-repeat center bottom;
+  background-size: cover;
+}
+/* line 128, ../scss/layout/_main.scss */
+#home .home-title {
+  margin-bottom: 40px;
+  font: 40px/42px Arial, sans-serif;
+}
+/* line 132, ../scss/layout/_main.scss */
+#home .home-subtitle {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font: 75px/77px Arial, sans-serif;
+}
+/* line 137, ../scss/layout/_main.scss */
+#home .btn {
+  display: inline-block;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  font: 24px/26px bold, sans-serif;
+  font-family: 'Arial';
+  background-color: #fed136;
+  border-radius: 3px;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0.8s;
+}
+/* line 151, ../scss/layout/_main.scss */
+#home .btn:hover {
+  background-color: #997805;
+  color: #fff;
+  transition: 1s;
+}
+
+/* line 161, ../scss/layout/_main.scss */
+#services {
+  text-align: center;
+  background: #f7f7f7 no-repeat center bottom;
+}
+/* line 165, ../scss/layout/_main.scss */
+#services .services_descr {
+  font: 18px/20px 'times new roman', serif;
+  color: #777777;
+}
+/* line 169, ../scss/layout/_main.scss */
+#services .services-wrap {
+  padding-top: 75px;
+}
+/* line 172, ../scss/layout/_main.scss */
+#services .commerce {
+  padding-top: 90px;
+  background: url("../img/commerce.png") no-repeat center top;
+}
+/* line 176, ../scss/layout/_main.scss */
+#services .responsive {
+  padding-top: 90px;
+  background: url("../img/responsive.png") no-repeat center top;
+}
+/* line 180, ../scss/layout/_main.scss */
+#services .security {
+  padding-top: 90px;
+  background: url("../img/security.png") no-repeat center top;
+}
+
+/* line 186, ../scss/layout/_main.scss */
+#portfolio {
+  text-align: center;
+  background-color: #c9cdcc;
+}
+/* line 190, ../scss/layout/_main.scss */
+#portfolio .portfolio_item {
+  display: inline-block;
+  padding: 0 0 0 0;
+  background: #fff;
+  margin-bottom: 50px;
+}
+/* line 197, ../scss/layout/_main.scss */
+#portfolio .portfolio_descr {
+  font: 14px/16px 'times new roman', serif;
+  color: #777777;
+}
+/* line 202, ../scss/layout/_main.scss */
+#portfolio .p_item_info {
+  padding: 26px 0 14px 0;
+}
+
+/* line 209, ../scss/layout/_main.scss */
+#about_us .story_item {
+  text-align: right;
+}
+/* line 213, ../scss/layout/_main.scss */
+#about_us .story_title {
+  font: 18px Arial, bold;
+}
+/* line 216, ../scss/layout/_main.scss */
+#about_us .story {
+  font: 16px "Times New Roman";
+  color: #777777;
+}
+
+/* line 224, ../scss/layout/_main.scss */
+#our_team {
+  background: #f7f7f7;
+  padding: 120px 0 120px 0;
+}
+/* line 227, ../scss/layout/_main.scss */
+#our_team .about_text {
+  display: inline-block;
+}
+/* line 230, ../scss/layout/_main.scss */
+#our_team .about_img {
+  display: inline-block;
+}
+/* line 234, ../scss/layout/_main.scss */
+#our_team .member_wrap {
+  padding: 0 75px 50px 75px;
+}
+/* line 241, ../scss/layout/_main.scss */
+#our_team .member_wrap .amaizing_social_menu .menu a {
+  color: #000 !important;
+  padding-right: 5px;
+}
+/* line 244, ../scss/layout/_main.scss */
+#our_team .member_wrap .amaizing_social_menu .menu a :hover {
+  color: #febf15;
+  transition: 0.7s;
+}
+/* line 252, ../scss/layout/_main.scss */
+#our_team .member_name {
+  padding: 25px 0 0 0;
+  color: #222222;
+  font: bold 16px/18px Arial, sans-serif;
+  text-transform: capitalize;
+}
+/* line 258, ../scss/layout/_main.scss */
+#our_team .member_profession {
+  color: #777777;
+  font: 16px/18px Arial, sans-serif;
+  text-transform: capitalize;
+}
+
+/* line 265, ../scss/layout/_main.scss */
+#contact_us {
+  min-height: 700px;
+  background: #222 url("../img/contact_us_bg.jpg") no-repeat;
+  background-size: cover;
+}
+/* line 271, ../scss/layout/_main.scss */
+#contact_us .contact_form_wrap {
+  padding-top: 35px;
+}
+
+/* line 277, ../scss/layout/_main.scss */
+#footer {
+  background: #fff;
+  padding: 20px 0 20px 0;
+}
+/* line 281, ../scss/layout/_main.scss */
+#footer .license {
+  letter-spacing: 2px;
+}
+/* line 292, ../scss/layout/_main.scss */
+#footer .footer_content .menu a {
+  color: #030303;
+  padding-right: 20px;
+}
+/* line 295, ../scss/layout/_main.scss */
+#footer .footer_content .menu a :hover {
+  color: #febf15;
+  transition: 0.7s;
+}
+
+/* Modules */
