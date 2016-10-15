@@ -54,16 +54,9 @@
         <div class="small-12">
           <h1 class="home-title wow bounceInLeft text-center">Welcome To Our Studio!</h1>
           <h2 class="home-subtitle wow bounceInRight text-center">IT'S NICE TO MEET YOU</h2>
-          <button class="btn wow zoomIn" data-open="myModal">TELL ME MORE</button>
+          <button class="btn wow zoomIn">TELL ME MORE</button>
         </div>
 
-
-        <div id="myModal" class="reveal large" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-          <h2 id="modalTitle">Hello!</h2>
-          <p class="lead">Comrade</p>
-          <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
-          <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-        </div>
 
       </div>
     </div>
