@@ -266,7 +266,7 @@
         <div class="contact_form_right wow bounceInRight small-12 medium-6 large-6 column">
 
 
-          <form><label><textarea type="text" placeholder="YOUR MESSAGE*" style="height: 150px"></textarea>></label>
+          <form><label><textarea type="text" placeholder="YOUR MESSAGE*" style="height: 150px"></textarea></label>
           </form>
         </div>
 
